@@ -1,0 +1,11 @@
+# Dependências
+node_modules/
+
+# Arquivos de sessão do Baileys
+sessions/
+
+# Arquivos de log
+*.log
+
+# Variáveis de ambiente
+.env
