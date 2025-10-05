@@ -2,6 +2,7 @@
 
 const express = require('express');
 const http = require('http');
+const cors = require('cors'); // <--- IMPORTADO
 require('dotenv').config();
 const { initializeSocket } = require('./services/WebSocketService'); // <--- ADICIONADO
 
